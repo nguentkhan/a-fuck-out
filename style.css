@@ -30,12 +30,12 @@ li a {
 
 li a:hover:not(.active) {
   color: white;
-  background-color: #db7093;
+  background-color: black;
   font-weight: bold;
 }
 
 .active {
-  background-color: #58257b;
+  background-color: grey;
   color: white;
   font-weight: bold;
 }
