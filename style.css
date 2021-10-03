@@ -54,3 +54,27 @@ li a:hover:not(.active) {
  border-width: 4px;
  padding: 2px;
 }
+.ClickAd {
+ color: red;
+ border-style: solid;
+ border-width: 6px;
+ padding: 3px;
+}
+.ClickAd {
+ color: red;
+ border-style: solid;
+ border-width: 6px;
+ padding: 3px;
+}
+.ClickAd2 {
+ color: red;
+ border-style: solid;
+ border-width: 6px;
+ padding: 3px;
+}
+.DuyTriQuangCao {
+ color: red;
+ border-style: solid;
+ border-width: 6px;
+ padding: 3px;
+}
