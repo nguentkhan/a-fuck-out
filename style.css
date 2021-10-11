@@ -1,97 +1,21 @@
-body {margin:0;}
-
-div {
-  padding:10px
+.ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: 0000000;
-  position: fixed;
-  top: 0;
-  position: sticky;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  color: white;
-  background-color: 666666;
-  font-weight: bold;
-}
-.000 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-}
-.active {
-  background-color: grey;
-  color: white;
-  font-weight: bold;
-}
-
-.thanh {
-    margin-top: 60px;
-}
-.A0 {
- color: red;
- border-style: solid;
- border-width: 4px;
- padding: 2px;
-}
-.ClickAd {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
-}
-.ClickAd {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
-}
-.ClickAd2 {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
-}
-.DuyTriQuangCao {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
- background-color: green;
- font: 2px;
+ .li{
  float: left;
 }
-.am {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
- background-color: green;
+ .li a { 
+ display: block; 
+ color: white;
+ text-align: center; 
+ padding: 14px 16px; 
+ text-decorition: none;
 }
- .am2 {
- color: red;
- border-style: solid;
- border-width: 6px;
- padding: 3px;
- background-color: green;
+ .li a:hover{
+ background-color: #111;
 }
+ 
