@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          .container {
+            width: 500px;
+            margin: auto;
+          }
+
+          #myInput {
+            background-position: 10px 12px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+          }
+
+          #myUL {
+            list-style-type: none;
+            display: none;
+            padding: 0;
+            margin: 0;
+          }
+
+          #myUL li a {
+            border: 1px solid #ddd;
+            margin-top: -1px; 
+            background-color: #f6f6f6;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            display: block
+          }
+
+          #myUL li a.header {
+            background-color: #e2e2e2;
+            cursor: default;
+          }
+          
+          #myUL li a:hover:not(.header) {
+            background-color: #eee;
+          }
+        </style>
+    </head>
+    <body> 
+      <div class="container">
+        <h2>Tìm Kiếm Từ Vựng</h2>
+
+        <input type="text" id="myInput" placeholder="TÌm Kiếm Từ Vựng" title="Type in a">
+
+        <ul id="myUL">
+          <li><a href="/KhucCuuMonHoiUc.html">Khúc Cửu Môn Hồi Ức</a></li>
+          <li><a href="/dexna">Десна</a></li>
+          <li><a href="#">Губ:Môi</a></li>
+          <li><a href="/brov">Бровь:Lông Mày</a></li>
+          <li><a href="/krov">Кровь</a></li>
+          <li><a href="#">Кисть</a></li>
+          <li><a href="#">Зрачок</a></li>
+          <li><a href="#">Ударе́ние</a></li>
+          <li><a href="#">Имя</a></li>
+          <li><a href="#">Кафе</a></li>
+          <li><a href="#">Здравствуйте</a></li>
+          <li><a href="#">Привет</a></li>
+        </ul>
+      </div>
+<script>
+      var input = document.getElementById("myInput");
+      // định nghĩa hàm xử lý myFunction
+      function myFunction() {
+          var filter, ul, li, a, i;
+          // lấy giá trị người dùng nhập
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myUL");
+          li = ul.getElementsByTagName("li");
+          // Nếu filter không có giá trị thị ẩn phần kết quare\
+          if (!filter) {
+            ul.style.display = "none";
+          }else{
+            // lI
+            for (i = 0; i < li.length; i++) {
+                // li
+                a = li[i].getElementsByTagName("a")[0];
+                // a
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  //nếu có hiển thị phàn tử ul và các thẻ li đó
+                    ul.style.display = "block";
+                    li[i].style.display = "";
+                } else {
+                  // li
+                    li[i].style.display = "none";
+
+                }
+            }
+          }
+      }
+      //THÀNH
+      input.addEventListener("keyup", myFunction);
+    </script>
+    </body>
+</html>
