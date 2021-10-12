@@ -22,3 +22,15 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+ .LuuY {
+ color: red;
+}
+ .Ghi {
+ text-align: center;
+ padding: 5px;
+ border: solid 4px;
+ border-radius: 10px;
+ background-color: azure;
+ color: gray;
+}
