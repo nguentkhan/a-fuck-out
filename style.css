@@ -23,7 +23,7 @@ li a:hover {
   background-color: #111;
 }
 
- .LuuY {
+ p {
  color: red;
 }
  .Ghi {
@@ -33,4 +33,12 @@ li a:hover {
  border-radius: 10px;
  background-color: azure;
  color: gray;
+}
+
+ .TinNhan {
+ text-align: center;
+ border: solid 2px;
+ border-radius: 10px;
+ background-color: aruze;
+ padding: 1px;
 }
