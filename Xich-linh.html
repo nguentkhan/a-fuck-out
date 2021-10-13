@@ -18,6 +18,31 @@ body {
  .BinhLuan {
  text-align: center;
 }
+ .M {
+ text-align: center;
+ color: black;
+ background-color: white;
+ border: solid 3px;
+ margin: 3px;
+ border-radius: 50px 0 50px 0;
+}
+ .M1 {
+ text-align: center;
+ color: black;
+ background-color: gray;
+ border: solid 3px;
+ margin: 3px;
+ border-radius: 10px 10px 10px 10px;
+}
+ .Gui {
+ text-align: center;
+ color: white;
+ background-color: gray;
+ border: solid 3px;
+ margin: 3px;
+ border-radius: 10px 10px 50px 10pc;
+}
+
 </style>
 </head>
 <body>
@@ -31,12 +56,13 @@ body {
 <br/>
 <div class="BinhLuan">
  <h3>Contact</h3>
- <form method="POST" action="https://getform.io/f/c6490dac-9e36-4503-910d-1d6f63372959">
- <input type="text" name="name" placeholder="Name"/><br/>
- <input type="email" name="email" placeholder="Email"/><br/>
- <input type="text" name="massage" placeholder="Massage"/><br/>
- <input type="file" name="massage" value="Chọn File, nếu Muốn"/><br/>
+ <form class="M1" method="POST" action="https://getform.io/f/c6490dac-9e36-4503-910d-1d6f63372959">
+ <input class="M" type="text" name="name" placeholder="Name"/><br/>
+ <input class="M" type="email" name="email" placeholder="Email"/><br/>
+ <input class="M" type="text" name="massage" placeholder="Massage"/><br/>
+ <input class="M" type="file" name="massage" value="Chọn File, nếu Muốn"/><br/>
  <br/>
- <button type="submit">Send</button>
+ <button class="Gui" type="submit">Send</button>
+</div>
 </body>
 </html>
