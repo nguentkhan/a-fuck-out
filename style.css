@@ -61,16 +61,22 @@ li a:hover {
 
  .Hoc-Html {
  border: solid 5px;
- border-radius: 10px 0 10px 0;
+ border-radius: 50px 0 50px 0;
+ width: 360px;
+ height: 360px;
 }
 
  .Hoc-Css {
  border: solid 5px;
- border-radius: 10px 0 10px 0;
+ border-radius: 50px 0 50px 0;
+ width: 360px;
+ height: 360px;
 }
  
  .Hoc-Js {
  border: solid 5px;
- border-radius: 10px 0 10px 0;
+ border-radius: 50px 0 50px 0;
+ width: 360px;
+ height: 360px;
 }
  
