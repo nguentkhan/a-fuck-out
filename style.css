@@ -58,3 +58,19 @@ li a:hover {
  .TinNhan0 {
  text-align: center;
 }
+
+ .Hoc-Html {
+ border: solid 5px;
+ border-radius: 10px 0 10px 0;
+}
+
+ .Hoc-Css {
+ border: solid 5px;
+ border-radius: 10px 0 10px 0;
+}
+ 
+ .Hoc-Js {
+ border: solid 5px;
+ border-radius: 10px 0 10px 0;
+}
+ 
