@@ -85,3 +85,13 @@ li a:hover {
  height: 360px;
  border-top: 50px;
 }
+
+ .HocHtmlCssJs {
+ text-align: center;
+ font-style: italic;
+ color: red;
+}
+ body {
+ background-color: gray;
+ text-align: center;
+}
